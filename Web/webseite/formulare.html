@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Formulare</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<style>
+		body { font-family: 'Ubuntu', sans-serif; margin-left: 1em; }	   
+		.center { text-align: center; }
+		ri { text-align: right; }
+		</style>
+	</head>
+	<body class="bg-light">
+	<form action="mailto:andreas@stradinger-online.de" method=post enctype="text/palin">
+		<table width="100%" border="1" class="table-sm table-striped">
+			<tr>
+				<td width="30%">Persönliche informationen</td>
+				<td width="70%"><input type="Text" name="Name" value="<Name>" size="20" maxlength="50"> <input type="Text" name="Adresse" value="<Adresse>" size="20" maxlength="50"> <input type="Text" name="Alter" value="<Alter>" size="3" maxlength="8"></td>
+			</tr>
+			<tr>
+				<td width="30%">Zu welchem Planeten möchten sie ?</td>
+				<td width="70%"><input type="Text" name="Planet" value="<Name>" size="20" maxlength="50"></td>
+			</tr>
+			<tr>
+				<td>Raucher oder Nichtraucher ?</td>
+				<td><input type="radio" name="Raucher" value="1" checked> (Raucher)
+					<input type="radio" name="Raucher" value="2"> (Nichtraucher)</td>
+			</tr>
+			<tr>
+				<td>Fluggesellschaft ?</td>
+				<td><select name="Fluggesellschaft" size="3"><option value="" selected>ESA</option>
+					<option value="">NASA</option>
+					<option value="">NeverComeBack Airlines</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>Besondere Wünsche ?</td>
+				<td><textarea name="Wuensche" cols="50" rows="3">Tragen Sie hier weitere Wünsche ein!</textarea></td>
+			</tr>
+			<tr>
+				<td><input type="Submit" name="Absenden" value="Absenden"></td>
+				<td><input type="Reset" value="Abbrechen"></td>
+			</tr>
+		</table>
+	</form>	
+	</body>
+</html>

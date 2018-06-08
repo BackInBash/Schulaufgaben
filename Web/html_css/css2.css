@@ -1,0 +1,14 @@
+/*External CSS*/
+
+#one{
+	left:0px; top:0px; width:100%; height:80px; z-index:1; background-color: green; position: absolute;
+}
+#two{
+	left:0px; top:80px; width:150px; height:90%; z-index:2; background-color: blue; position: absolute;
+}
+#three{
+	left:150px; top:80px; width:90%; height:90%; z-index:3; background-color: orange; position: absolute;
+}
+#four{
+	left:150px; top:90%; width:90%; height:80px; z-index:4; background-color: red; position: absolute;
+}
