@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE klasse SYSTEM "Klasse.dtd">
+<!-- Willkommen in der Klasse XML -->
+<klasse>
+	<schüler>
+		<name></name>
+		<klasse></klasse>
+		<beruf></beruf>
+		<noten>
+			<ITS></ITS>
+			<SAE></SAE>
+		</noten>
+	</schüler>
+</klasse>

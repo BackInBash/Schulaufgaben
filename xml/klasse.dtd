@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE klasse [
+	<!ELEMENT klasse (name, klasse, beruf, noten)>
+		<!ELEMENT name (#PCDATA)>
+		<!ELEMENT klasse (#PCDATA)>
+		<!ELEMENT beruf (#PCDATA)>
+<!DOCTYPE noten [
+	<!ELEMENT noten (ITS, SAE)>
+		<!ELEMENT ITS (#PCDATA)>
+		<!ELEMENT SAE (#PCDATA)>
+	]>
+]>
