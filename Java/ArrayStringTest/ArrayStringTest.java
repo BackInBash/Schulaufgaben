@@ -6,7 +6,7 @@
 import java.util.Arrays;
 /**
  *
- * @author m.brunsch
+ * @author
  */
 public class ArrayStringTest {
 
