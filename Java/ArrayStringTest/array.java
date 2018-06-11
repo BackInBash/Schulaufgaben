@@ -6,7 +6,7 @@
 
 /**
  *
- * @author m.brunsch
+ * @author
  */
 public class array {
     int array[];
