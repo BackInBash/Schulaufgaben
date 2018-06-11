@@ -1,8 +1,9 @@
 <?php
-
-$zahl1 = $_POST['zahl1'] ;
-$zahl2 = $_POST['zahl2'] ;
-$z = $_POST['z'] ;
+$erg =0;
+if ( isset ($_GET['zahl1']) && ( isset ($_GET['zahl2']) )) {
+$zahl1 = $_GET['zahl1'] ;
+$zahl2 = $_GET['zahl2'] ;
+$z = $_GET['z'] ;
 
 switch($z) {
 	case "+":
@@ -25,6 +26,7 @@ switch($z) {
 	echo "ERROR";
 	break;
 }
+}
 ?>
 
 <html>
@@ -33,16 +35,16 @@ switch($z) {
 	</head>
 	<body>
 	 <h3>Hier können Sie Daten zum Berechnen eingeben</h3>
-	 <form action"rechnen.php" method="POST" enctype"">
+	 <form action"rechnen.php" method="GET" enctype"">
        <table>
-	    <tr><td>Zahl1: </td><td><input type="text" name="zahl1" size="30" value="55"></td></tr>
-		<tr><td>Zahl2: </td><td><input type="text" name="zahl2" size="30" value="66"></td></tr>
+	    <tr><td>Zahl1: </td><td><input type="text" name="zahl1" size="30" value=""></td></tr>
+		<tr><td>Zahl2: </td><td><input type="text" name="zahl2" size="30" value=""></td></tr>
 	   </table>
 	 <p />
-	 <input type="redio" name="z" size="30" value="+">
-	 <input type="radio" name="z" size="30" value="-">
-	 <input type="radio" name="z" size="30" value="*">
-	 <input type="radio" name="z" size="30" value="/">
+	 +<input type="radio" name="z" size="30" value="+">
+	 -<input type="radio" name="z" size="30" value="-">
+	 *<input type="radio" name="z" size="30" value="*">
+	 /<input type="radio" name="z" size="30" value="/">
 	 <input type="submit" value="addieren">
 	</form>
  Das Ergebniss ist: <?php echo $erg; ?>
