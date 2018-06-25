@@ -38,36 +38,35 @@ if(!empty($z)) {
    switch($z)
    {
    case 1 : // "+"
-	$erg_n = $n1 * $n2;
-    $erg_z = ($z1*$n2) + ($z2*$n1);   
-	
-   	
-   	break;
+   $erg_n = $n1 * $n2;
+   $erg_z = ($z1*$n2) + ($z2*$n1);   
+   break;
+		   
    case 2 : // "-"
-   	$erg_n = $n1 * $n2;
-    $erg_z = ($z1*$n2) - ($z2*$n1);   
-	
-   	break;
+   $erg_n = $n1 * $n2;
+   $erg_z = ($z1*$n2) - ($z2*$n1);   
+   break;
+   
    case 3 : // "*"
-   	$erg_n = $n1*$n2;
-    $erg_z = $z1*$z2;   
-   	break;
+   $erg_n = $n1*$n2;
+   $erg_z = $z1*$z2;   
+   break;
+   
    case 4 : // "/"
 	if($n1 != 0 && $n2!=0) {
     		$erg_n = $n1*$z2;
     		$erg_z = $z1*$n2;
 	} 
 	else {
-		echo "Fehler: Division durch Null!";
-	}
-		
-   	break;
-   }
+	  echo "Fehler: Division durch Null!";
+	}	
+   break;
+}
 
-	$erg_ggt = ggt($erg_z, $erg_n);
-   	if($erg_ggt > 1) {
-   		$erg_n = $erg_n/$erg_ggt;
-        $erg_z = $erg_z/$erg_ggt;  
+$erg_ggt = ggt($erg_z, $erg_n);
+	if($erg_ggt > 1) {
+   	 $erg_n = $erg_n/$erg_ggt;
+         $erg_z = $erg_z/$erg_ggt;  
    	}
 }
 ?>
