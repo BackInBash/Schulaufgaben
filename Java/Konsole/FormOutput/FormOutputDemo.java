@@ -59,11 +59,11 @@ public class FormOutputDemo {
 
     public static void main(String[] args) {
         // TODO code application logic here
-		show();
-		dezout();
-		octout();
-		hexout();
-		binout();
+	show();
+	dezout();
+	octout();
+	hexout();
+	binout();
         euro();
     }
 
