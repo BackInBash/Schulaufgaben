@@ -64,7 +64,7 @@ public class FormOutputDemo {
 	octout();
 	hexout();
 	binout();
-        euro();
+       euro();
     }
 
 }
