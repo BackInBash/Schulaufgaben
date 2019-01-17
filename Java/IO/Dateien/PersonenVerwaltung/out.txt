@@ -1,0 +1,9 @@
+﻿Name,	Vorname,	Straße,	Tel.
+---------------------------------------------
+Max, Mustermann, MusterStra?e 11, 07487 1123
+Max, Mustermann, MusterStra?e 11, 07487 1123
+Max, Mustermann, MusterStra?e 11, 07487 1123
+Max, Mustermann, MusterStra?e 11, 07487 1123
+Max, Mustermann, MusterStra?e 11, 07487 1123
+Max, Mustermann, MusterStra?e 11, 07487 1123
+Max, Mustermann, MusterStra?e 11, 07487 1123
