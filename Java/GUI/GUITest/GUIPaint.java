@@ -15,9 +15,9 @@ import java.awt.event.WindowEvent;
 public class GUIPaint extends Frame {
     
     public GUIPaint(){
-		// Set Windows Name
+	// Set Windows Name
         super("GUIPaint");
-		// Add Closing Event handler
+	// Add Closing Event handler
         addWindowListener(
             new WindowAdapter(){
                 public void windowClosing(WindowEvent event){
@@ -27,7 +27,7 @@ public class GUIPaint extends Frame {
     }
     
     public void paint(Graphics g){
-		// Draw Tcom Logo \_/(^-^)\_/
+	// Draw Tcom Logo \_/(^-^)\_/
         String t = "T+";
         Font font = g.getFont().deriveFont( 50.0f );
         g.setFont( font );
