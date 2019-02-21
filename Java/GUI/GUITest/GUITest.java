@@ -43,21 +43,21 @@ public class GUITest {
     }
     
     public static void GUIWTF(){
-		// Create Object
+	// Create Object
         Frame fr = new Frame("GUI Test");
-		// Add Closing Event handler
+	// Add Closing Event handler
         addWindowListener(
             new WindowAdapter(){
                 public void windowClosing(WindowEvent event){
                     System.exit(0);
                 }
             });
-		// Set Window Size
+	// Set Window Size
         fr.setSize(400,300);
-		// Set Visibility
+	// Set Visibility
         fr.setVisible(true);
         for(;;){
-		// LSD loop
+	// LSD loop
         fr.setBackground(get(ThreadLocalRandom.current().nextInt(1, 8 + 1)));
         }
     }
@@ -65,14 +65,13 @@ public class GUITest {
     public static void main(String[] args) {
         // TODO code application logic here
         
-		// Start Class GUITest
-		GUIWTF();
+	// Start Class GUITest
+	GUIWTF();
 		
-		// Start Class GUIPaint
-		for(int i=0; i<1; i++){
+	// Start Class GUIPaint
+	for(int i=0; i<1; i++){
             GUIPaint pnt = new GUIPaint();
             pnt.GPaint();
         }
     }
-    
 }
