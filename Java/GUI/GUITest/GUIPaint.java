@@ -36,10 +36,10 @@ public class GUIPaint extends Frame {
     
     public static void GPaint(){
         // Create Class Object
-		GUIPaint gui = new GUIPaint();
-		// Set Windows Size
+	GUIPaint gui = new GUIPaint();
+	// Set Windows Size
         gui.setSize(400,300);
-		// Backroud Color
+	// Backroud Color
         gui.setBackground(Color.MAGENTA);
         gui.setVisible(true);
     }
