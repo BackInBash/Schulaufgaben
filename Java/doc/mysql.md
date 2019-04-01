@@ -1,7 +1,7 @@
 # Zugriff auf eine MySQL Datenbank
 Aller erstens muss man sich den aktuellsten JDBC-Treiber für die Datenbank besorgen.
 
-Der treiber wird als Bibliotheke in NetBeans eingebunden.
+Der Treiber wird als Bibliotheke in NetBeans eingebunden.
 
 Folgende Schritte sind nun nötig:
 
@@ -30,7 +30,7 @@ Folgende Schritte sind nun nötig:
        System.out.println(rs.getInt("id")+"\+"+rs.getString("name"));
    }
    ```
-1. Alles wirder schließen im `finally` Block
+1. Alles wieder schließen im `finally` Block
    ```java
    ... } finally {
        rs.close();
